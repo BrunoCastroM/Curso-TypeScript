@@ -12,7 +12,7 @@ Type Annotations:
 
 
 // Example:
-let nome: string = 'Bruno'
+let nome: string = 'Bruno';
 
 // Tipos básicos (aqui ocorre inferência de tipos)
 let nome1: string = 'Luiz'; // Qualquer tipo de strings: '' "" ``
