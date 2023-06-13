@@ -1,5 +1,5 @@
 export class Empresa {
-  public readonly nome: string; // public não é necessário
+  readonly nome: string; // public não necessário
   private readonly colaboradores: Colaborador[] = [];
   protected readonly cnpj: string;
 
@@ -19,7 +19,6 @@ export class Empresa {
   }
 }
 
-// Forma mais simplidicada de fazer uma classe, ela já define o tipo e o this ao mesmo tempo
 export class Colaborador {
   constructor(
     public readonly nome: string,
@@ -35,4 +34,3 @@ empresa1.adicionaColaborador(colaborador1);
 empresa1.adicionaColaborador(colaborador2);
 empresa1.adicionaColaborador(colaborador3);
 console.log(empresa1);
-empresa1.mostrarColaboradores();
