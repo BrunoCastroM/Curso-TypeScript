@@ -45,7 +45,7 @@ export class MaquinaEscrever extends Ferramenta {
   }
 }
 
-const escritor = new Escritor('Luiz');
+const escritor = new Escritor('Bruno');
 const caneta = new Caneta('Bic');
 const maquinaEscrever = new MaquinaEscrever('Máquina');
 
