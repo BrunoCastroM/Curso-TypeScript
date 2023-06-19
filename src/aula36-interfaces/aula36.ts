@@ -10,8 +10,8 @@ interface Pessoa {
 }
 
 const pessoa: Pessoa = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
+  nome: 'Bruno',
+  sobrenome: 'Castro',
   enderecos: ['Av. Brasil'],
   idade: 30,
 };
