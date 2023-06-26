@@ -21,6 +21,7 @@
   "homepage": "https://github.com/BrunoCastroM/Curso-TypeScript#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.195",
+    "@types/node": "^20.3.1",
     "@types/validator": "^13.7.17",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
